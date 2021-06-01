@@ -1,0 +1,14 @@
+CREATE TABLE User (
+  username varchar(255) NOT NULL,
+    email varchar(255) NOT NULL,
+    mobile int(50) NOT NULL,
+     conutry varchar(255) NOT NULL,
+     state varchar(255) NOT NULL,
+     city varchar(255) NOT NULL,
+  comments varchar(100) NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL
+) 
+
+ INSERT INTO `user` (`username`, `email`, `mobile`, `country`, `state`, `city`, `comments`)
+ VALUES ('anchal singh', 'anchal@gmail.com', '865945693', 'india', 'uttarpradesh', 'noida', 'hello');
